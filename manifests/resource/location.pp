@@ -142,6 +142,7 @@ define nginx::resource::location (
   $location_cfg_append  = undef,
   $location_custom_cfg_prepend  = undef,
   $location_custom_cfg_append   = undef,
+  $include_files        = undef,
   $try_files            = undef,
   $proxy_cache          = false,
   $proxy_cache_valid    = false,
